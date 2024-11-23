@@ -13,34 +13,12 @@ if not os.path.exists(desktop_path):
 
 # Categories and search terms
 categories = {
-    'pro_audio': [
-        'QSC+Audio+Professional',
-        'Crown+Amplifier+Professional',
-        'Martin+Audio+Speakers',
-        'Dante+Audio+Equipment',
-        'Pro+Audio+Rack+System'
-    ],
-    'LCD_Projector': [
-        'Epson+Pro+Projector',
-        'NEC+Professional+Projector',
-        'Sony+Professional+Projector',
-        'Commercial+Projector+System',
-        'Large+Venue+Projector'
-    ],
-    'gpu': [
-        'NVIDIA+RTX+4090',
-        'NVIDIA+A100+GPU',
-        'AMD+Radeon+Pro+GPU',
-        'Professional+Graphics+Card',
-        'Server+GPU+System'
-    ],
-    'test_equipment': [
-        'Tektronix+Oscilloscope',
-        'Keysight+Test+Equipment',
-        'Fluke+Professional+Multimeter',
-        'Electronic+Test+Equipment',
-        'Laboratory+Test+Instruments'
-    ]
+    'Category': [
+        'Item 1',
+        'Item 2',
+        'Item 3',
+        'Item 4',
+        'Item 5'
 }
 
 def download_and_organize_images():
